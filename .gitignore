@@ -1,0 +1,17 @@
+.gradle
+.idea
+build
+out
+target
+tmp
+
+*.jar
+*.ear
+*.war
+*.iml
+*.ipr
+*.iws
+*.log
+*.class
+
+.DS_data
