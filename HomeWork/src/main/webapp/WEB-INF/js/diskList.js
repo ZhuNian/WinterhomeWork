@@ -15,8 +15,9 @@ function dataToView(disks) {
 function diskDiv(disk) {
     return $("<div>")
         .attr("class", "item")
-        .append(diskName(disk.name))
+ //       .append(diskName(disk.name))
         .append(diskImgUrl(disk.img))
+        .append(diskPrice(disk.price))
         .append(diskDesc(disk.desc))
         .append(removeButton(disk.name))
         .append(addToCartButton(disk.name));
@@ -25,7 +26,9 @@ function diskDiv(disk) {
 function diskName(title) {
     return $("<p>").html(title);
 }
-
+function diskPrice(price) {
+    return $("<p >").html(price).attr("id", "price");
+}
 function diskImgUrl(img) {
     return $("<img>").attr("src", img);
 }

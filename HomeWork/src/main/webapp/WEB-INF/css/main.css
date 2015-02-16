@@ -1,4 +1,7 @@
-.container {
+.container #price{
+    font-size: 13pt;
+    color: red;
+     font-weight: bold;
 }
 nav {
   width: 100%;
