@@ -1,3 +1,39 @@
 nav .logo img{
     width: 200px;
 }
+section .center{
+   // text-align: center;
+}
+.addImg img{
+    width:50%;
+
+}
+.inputForm{
+    float:right;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #eeeeee;
+    border-top-color:red;
+    //text-align:center;
+    padding-left:4%;
+    width:30%
+}
+form p.signText{
+    font-weight:bold;
+}
+form .signSubmit{
+    background-color:red;
+    color:white;
+    width:80%;
+    font-weight:bold;
+    padding-top:3%;
+    padding-bottom:3%;
+}
+p span.checkBoxText{
+    color:gray;
+    font-size:10px;
+    padding-right:27%;
+}
+p span.passwordText{
+    font-size:10px;
+}
