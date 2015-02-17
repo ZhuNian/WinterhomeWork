@@ -1,9 +1,9 @@
 function addToCartButton(name) {
     return $("<button>")
-        .html("add to cart")
+        .html("加入购物车")
         .click(function () {
             addToCart(name);
-        });
+        }).attr("class","addToCart");
 }
 
 function addToCart(name) {

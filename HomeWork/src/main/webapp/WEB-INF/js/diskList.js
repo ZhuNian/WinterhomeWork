@@ -18,23 +18,28 @@ function diskDiv(disk) {
  //       .append(diskName(disk.name))
         .append(diskImgUrl(disk.img))
         .append(diskPrice(disk.price))
+        .append(addPostPrice(disk.postPrice))
         .append(diskDesc(disk.desc))
-        .append(removeButton(disk.name))
+//        .append(removeButton(disk.name))
         .append(addToCartButton(disk.name));
+}
+
+function addPostPrice(postPrice) {
+    return $("<p>").html(postPrice).attr("class","postPrice");
 }
 
 function diskName(title) {
     return $("<p>").html(title);
 }
 function diskPrice(price) {
-    return $("<p >").html(price).attr("id", "price");
+    return $("<p >").html(price).attr("class", "price");
 }
 function diskImgUrl(img) {
     return $("<img>").attr("src", img);
 }
 
 function diskDesc(desc) {
-    return $("<p>").html(desc);
+    return $("<p>").html(desc).attr("class", "desc");
 }
 
 function removeButton(name) {

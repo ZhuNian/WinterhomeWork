@@ -1,7 +1,41 @@
-.container #price{
-    font-size: 13pt;
+.container .price{
+//    display: table-row;
+    display: inline;
+    font-size: 18pt;
+    font-family:fantasy;
     color: red;
-     font-weight: bold;
+    font-weight: 900;
+    float:left;
+}
+.addToCart{
+    height:40px;
+    background-color:red;
+    color:white;
+}
+.container .postPrice{
+    display:inline;
+    width:40px;
+    margin-left:10px;
+    color:white;
+    background-color:red;
+    float:left;
+}
+.container .desc{
+    display: block;
+    clear:left;
+    color:red;
+}
+
+.content .item img{
+    display:block;
+    width: 300px;
+    height: 300px;
+}
+.container .item{
+   border-style: solid;
+   border-width: 1px;
+   border-color:  #eeeeee;
+   margin-left: 20px;
 }
 nav {
   width: 100%;
@@ -80,7 +114,7 @@ section .content {
 }
 
 section .content .item{
-  width: 33%;
+  width: 25%;
   display: inline-block;
   float: left;
 }
