@@ -11,6 +11,13 @@ var disks = [{
   price: "¥22.5",
   postPrice:"包邮"
 }, {
+   name: "大光盘",
+   img: "../images/disk/marriage-disk.jpg",
+   desc: "送法分骄傲美好瞬间 50元/10张",
+   price: "¥232.5",
+   postPrice:"包邮"
+   },
+   {
   name: "1TB大容量光盘",
   img: "../images/disk/1TB-disk.jpg",
   desc: "解放你的硬盘  100元/10张",

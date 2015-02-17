@@ -3,6 +3,7 @@ $(document).ready(function () {
 });
 
 function dataToView(disks) {
+    showLogo();
     $("#disks").empty();
     var diskDivs = _.map(disks, function (disk) {
         return diskDiv(disk);
@@ -10,6 +11,10 @@ function dataToView(disks) {
     _.each(diskDivs, function (div) {
         $("#disks").append(div);
     });
+}
+function showLogo(){
+    var imgLogoSrc = "../images/TaoBao.PNG";
+     $("#webLogo").append( $("<img>").attr("src",imgLogoSrc));
 }
 
 function diskDiv(disk) {
