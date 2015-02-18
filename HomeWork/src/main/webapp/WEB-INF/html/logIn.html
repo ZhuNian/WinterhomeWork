@@ -12,15 +12,18 @@
             <div class="logo" id = "webLogo"></div>
         </nav>
         <section>
-                <div class="addImg"></div>
+                <image src="../images/LogIn/logIn.PNG"></image>
+
                 <div class="inputForm">
-                    <form >
-                        <p class = "signText">登录</p>
-                        <p><input type="text" name="userName" placeholder="手机号/会员名/邮箱" style="width:80%" ></p>
-                        <p><input type="password" name="userPassword"  style="width:80%"></p>
-                        <p><input type="checkbox" checked="checked"> <span  class="checkBoxText">安全控件登录</span><span class="passwordText">忘记登录密码？</span></p>
-                        <input class = "signSubmit"type="submit" value="登录" >
-                    </form>
+                    <p class = "signText">登录</p>
+                    <div class = "messageSignIn"></div>
+                    <p><input type="text" name="userName" placeholder="手机号/会员名/邮箱" style="width:80%" ></p>
+                    <p><input type="password" name="userPassword"  style="width:80%"></p>
+                    <p class = "marginTop"><input type="checkbox" checked="checked"> <span  class="checkBoxText">安全控件登录</span><span class="passwordText">忘记登录密码？</span></p>
+                    <button type="submit" class = "signSubmit" onclick="signInButton()" >登录</button>
+                    <div>
+                        <a class = "marginTop" href = "signIn.html" style="text-decoration:none;font-size:1px;float:right;margin-right:20%">免费注册</a>
+                    </div>
                 </div>
 
         </section>
@@ -28,5 +31,5 @@
 </body>
 <script type="text/javascript" src="../js/vendor/jquery-2.1.1.js"></script>
 <script type="text/javascript" src="../js/vendor/underscore-1.7.0.js"></script>
-<script type="text/javascript" src="../js/Logo.js"></script>
+<script type="text/javascript" src="../js/logIn.js"></script>
 </html>

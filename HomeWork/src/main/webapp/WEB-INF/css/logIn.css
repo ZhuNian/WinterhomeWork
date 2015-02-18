@@ -1,13 +1,18 @@
 nav .logo img{
     width: 200px;
 }
+section{
+    display:inline;
+}
+section img{
+    display:inline;
+    width:50%;
+    padding-left:4%;
+}
 section .center{
    // text-align: center;
 }
-.addImg img{
-    width:50%;
 
-}
 .inputForm{
     float:right;
     border-style: solid;
@@ -16,12 +21,14 @@ section .center{
     border-top-color:red;
     //text-align:center;
     padding-left:4%;
-    width:30%
+    width:25%;
+    margin:4% 10% 0 0%;
+    height:350px;
 }
-form p.signText{
+p.signText{
     font-weight:bold;
 }
-form .signSubmit{
+.signSubmit{
     background-color:red;
     color:white;
     width:80%;
@@ -36,4 +43,13 @@ p span.checkBoxText{
 }
 p span.passwordText{
     font-size:10px;
+}
+div.messageSignIn{
+    margin-top:25%;
+}
+.marginTop{
+ margin-top:15%;
+}
+.signSubmit{
+ margin-top:10%;
 }
