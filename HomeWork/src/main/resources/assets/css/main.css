@@ -1,0 +1,185 @@
+.container .price{
+//    display: table-row;
+    display: inline;
+    font-size: 18pt;
+    font-family:fantasy;
+    color: red;
+    font-weight: 900;
+    float:left;
+}
+.container .addToCart{
+    float:left;
+    height:40px;
+    background-color:red;
+    color:white;
+}
+.container .postPrice{
+    display:inline;
+    width:40px;
+    margin-left:10px;
+    color:white;
+    background-color:red;
+    float:left;
+}
+.container .desc{
+    font-size:70%;
+    font-size:70%;
+    display: block;
+    clear:left;
+}
+
+.content .item img{
+    display:block;
+    width: 250px;
+    height: 250px;
+}
+.container .item{
+   border-style: solid;
+   border-width: 1px;
+   border-color:  #eeeeee;
+   margin-left: 20px;
+}
+nav {
+  margin-left:37px;
+  border-style: solid;
+  border-width: 1px;
+  border-color:  #eeeeee;
+  width: 83%;
+  height: 60px;
+  line-height: 25px;
+//  background-color: #eeeeee;
+  font-family: STHeiti;
+  font-size: 13pt;
+}
+nav .logo{
+ float:left;
+}
+nav .align-left {
+  display: inline-block;
+  margin-left: 20px;
+}
+nav .align-right  #register{
+    color:black;
+}
+nav .align-right  #signIn{
+    color:sandybrown;
+}
+nav .align-right a{
+  text-decoration:none;
+}
+
+nav .align-right {
+  display: inline-block;
+  margin-right: 20px;
+  float:right;
+}
+
+section {
+  padding: 20px;
+  font-family: STHeiti;
+  font-size: 15pt;
+  clear: both;
+}
+
+section .left {
+  display: inline-block;
+  width: 15%;
+  height: 350px;
+  background-color: #eeeeee;
+  padding: 40px 30px;
+}
+
+section .left li {
+  list-style-type: none;
+  margin-bottom: 40px;
+}
+
+section .right {
+  display: inline-block;
+  width: 75%;
+  height: 350px;
+  float: right;
+
+}
+
+section .right img {
+  width: 50%;
+  max-width: 380px;
+  display: inline-block;
+  float: left;
+}
+
+section .right .description {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  text-align:right;
+  font-family: STHeiti;
+  font-size: 15pt;
+}
+
+section header {
+  font-weight: bold;
+}
+
+section hr {
+  border-style: double;
+}
+
+section .content {
+  text-align: center;
+}
+
+section .content .item{
+  width: 20%;
+  display: inline-block;
+  float: left;
+}
+
+section .item p{
+  line-height: 30px;
+}
+
+section .item img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+//  background-color: #eeeeee;
+//  clear: both;
+//  font-family: STHeiti;
+//  font-size: 15pt;
+//  min-height: 400px;
+}
+
+footer  p {
+  font-size: 17pt;
+  font-weight: bold;
+}
+
+footer .left {
+  padding-left: 80px;
+  width: 40%;
+  display: inline-block;
+}
+
+
+footer .right {
+  width: 50%;
+  display: inline-block;
+  float: right;
+}
+
+footer .right img {
+  width: 60%;
+}
+
+footer .right .mapInfo{
+  width: 80%;
+  height: 300px;
+  border: #ccc;
+  float: left;
+  margin-left: 6px;
+  padding-left: 100px;
+}

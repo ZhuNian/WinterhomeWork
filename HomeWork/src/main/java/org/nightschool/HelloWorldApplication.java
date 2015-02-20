@@ -3,12 +3,13 @@ package org.nightschool;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
+import org.nightschool.controller.ItemController;
 
 /**
  * Created by Administrator on 2015/2/20.
  */
 public class HelloWorldApplication extends Application<HelloWorldConfiguration> {
-    public static void main(String[] args) throws Exception {   
+    public static void main(String[] args) throws Exception {
         new HelloWorldApplication().run(args);
     }
 
@@ -30,6 +31,8 @@ public class HelloWorldApplication extends Application<HelloWorldConfiguration> 
                 configuration.getTemplate(),
                 configuration.getDefaultName()
         );
+        ItemController itemController = new ItemController();
         environment.jersey().register(resource);
+        environment.jersey().register(itemController);
     }
 }

@@ -1,0 +1,23 @@
+.logo img{
+    width:20%;
+    margin-left:25%;
+}
+section .inputForm{
+    text-align:right;
+    margin:10% 34% 0% 0%;
+}
+.inputForm .inputText{
+    color:gray;
+}
+.star{
+    color:red;
+}
+.smallFont{
+    font-size:1%;
+}
+.submitButton{
+    background-color:red;
+    width:25%;
+    height:40px;
+    color:white;
+}
