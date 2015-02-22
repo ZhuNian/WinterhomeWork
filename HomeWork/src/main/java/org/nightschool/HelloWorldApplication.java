@@ -1,6 +1,7 @@
 package org.nightschool;
 
 import io.dropwizard.Application;
+import io.dropwizard.assets.AssetsBundle;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 import org.nightschool.controller.ItemController;
@@ -21,6 +22,7 @@ public class HelloWorldApplication extends Application<HelloWorldConfiguration> 
     @Override
     public void initialize(Bootstrap<HelloWorldConfiguration> bootstrap) {
         // nothing to do yet
+        bootstrap.addBundle(new AssetsBundle("/assets", "/assets"));
     }
 
     @Override

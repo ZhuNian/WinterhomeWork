@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app ng-controller="ItemListCtrl" ng-init="init()">
 <head>
     <title>淘宝</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -8,11 +8,7 @@
 <body>
 <div class="container">
     <nav>
-        <div class="logo" id = "webLogo"></div>
-        <div class="align-left">
-            <a href=""></a>
-            <a href=""></a>
-        </div>
+        <img src = "../images/TaoBao.PNG">
         <div class="align-right">
             <a id = "signIn" href="logIn.html" target=_blank>亲，请登陆</a>
             <a id = "register" href="signIn.html" target=_blank>免费注册</a>
@@ -21,7 +17,9 @@
 
 
     <section>
-        <div class="content" id="disks"></div>
+        <div class="content" id="showDisks">
+            <p ng-bind="disks[0].name"></p>
+        </div>
     </section>
 
     <footer>
@@ -30,12 +28,14 @@
 
 <script type="text/javascript" src="../js/vendor/jquery-2.1.1.js"></script>
 <script type="text/javascript" src="../js/vendor/underscore-1.7.0.js"></script>
+<script type="text/javascript" src="../js/angular.min.js"></script>
 
 <script type="text/javascript" src="../js/fakeData.js"></script>
 <script type="text/javascript" src="../js/cart.js"></script>
-<script type="text/javascript" src="../js/diskList.js"></script>
+<script type="text/javascript" src="../js/ItemListCtrl.js"></script>
 
 <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 <script type="text/javascript" src="../js/baiduMap.js"></script>
+
 </body>
 </html>

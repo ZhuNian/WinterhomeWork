@@ -8,7 +8,7 @@ function ItemListCtrl($scope) {
             url: "/disks/list",
             type: "GET"
         }).done(function (disks) {
-            $scope.itemsList = disks;
+            $scope.disks = disks;
         });
     }
 

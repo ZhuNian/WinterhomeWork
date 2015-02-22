@@ -51,13 +51,7 @@ nav {
   font-family: STHeiti;
   font-size: 13pt;
 }
-nav .logo{
- float:left;
-}
-nav .align-left {
-  display: inline-block;
-  margin-left: 20px;
-}
+
 nav .align-right  #register{
     color:black;
 }

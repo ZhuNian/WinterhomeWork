@@ -10,13 +10,13 @@ import java.util.List;
  */
 public class ItemServcie {
 
-    private final List itemsList = new ArrayList();
+    private final List itemList = new ArrayList();
 
     public List<Items> listItems() {
-        return itemsList;
+        return itemList;
     }
 
     public void add(Items it) {
-        itemsList.add(it);
+        itemList.add(it);
     }
 }
